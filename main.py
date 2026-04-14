@@ -5,7 +5,7 @@ print ("2: Computador VS Humano ")
 print ("3: Computador VS Computador ")
 print ("0: SAIR")
 modo = int (input("Digite o número do modo que gostaria de jogar:\n> "))
-
+#-
 # --------------- Helena: Humano x Humano --------
 
 # --------------- Juliana: Computador x Humano ---
@@ -36,4 +36,7 @@ while True:
     else:
         print ("Não houve empate!")
 
-    denovo = str (input("Deseja jogar novamente? N/Y\n>").lower)
+    denovo = str (input("Deseja jogar novamente? N/Y\n>").lower())
+
+    if denovo != "Y":
+        break

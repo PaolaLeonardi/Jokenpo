@@ -89,12 +89,12 @@ if modo == 3:
         print(f"Placar final: {pontos1} x {pontos2}")
         denovo = str (input("Deseja jogar novamente? N/Y\n>").lower())
 
-        if denovo != "y":
+        if denovo.lower() == "n":
+
+            print("\n=== RESULTADO FINAL ===")
+            print(f"Jogador 1: {pontos1}")
+            print(f"Jogador 2: {pontos2}")
+
+            print ("\nObrigada por jogar!\n")
+            print ("Alunas responsáveis:\nPaola R. Leonardi\nHelena Gomes\nJuliana Munhoz")
             break
-
-    print("\n=== RESULTADO FINAL ===")
-    print(f"Jogador 1: {pontos1}")
-    print(f"Jogador 2: {pontos2}")
-
-    print ("\nObrigada por jogar!\n")
-    print ("Alunas responsáveis:\nPaola R. Leonardi\nHelena Gomes\nJuliana Munhoz")

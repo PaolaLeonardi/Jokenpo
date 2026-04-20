@@ -9,7 +9,7 @@
   - Computador vs Computador <br>
 <br> 
 🔁 Loop de partidas <br>
-🧠 Jogadas aleatórias (IA simples <br>
+🧠 Jogadas aleatórias (IA simples) <br>
 🏆 Sistema de pontuação acumulativa (jogar novamente ou sair) <br>
 📊 Resultado final ao encerrar o jogo <br>
 <img alt="Tesoura" src="https://i.imgur.com/CE28ZlA.png" align="right" width="115"/>

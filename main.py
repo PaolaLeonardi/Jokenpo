@@ -40,16 +40,14 @@ while modo == 1:
     elif jogador1.lower() == "pedra" and jogador2.lower() == "tesoura":
         print("Jogador 1 venceu!")
         ponto1 += 1
-    print(f"\n==PLACAR== \n  {ponto1} X {ponto2}")
+    print(f"\n== PLACAR == \n  {ponto1} X {ponto2}")
     denovo = input("\nDeseja jogar novamente? [S/N] \n> ")
     if denovo.lower() == "n":
         print(f"\n=== RESULTADO FINAL === \n JOGADOR 1 X JOGADOR 2 \n     {ponto1}     X     {ponto2}")
         print("\nObrigada por jogar! \nAlunas responsáveis:\nPaola R. Leonardi\nHelena Gomes\nJuliana Munhoz")
         break
+        
 # --------------- Juliana: Computador x Humano ---
-#Humano x Computador - Juliana
-
-
 import random
 
 #Variáveis
@@ -63,7 +61,7 @@ pedra = 1
 papel = 2
 tesoura = 3
 
-while True:
+while modo == 2:
     print(f"\nMODO: Humano VS Computador selecionado")
     print(f"==OPÇÕES== \n1:👊Pedra \n2:🖐️Papel \n3:✌️Tesoura\n")
     usuario = int(input("Sua escolha:\n> "))
@@ -112,10 +110,7 @@ while True:
         else:
             print("Jogada inválida!")
 
-    print (f"\n === Placar === \n Usuário x Computador \n {pontuacao_usuario} x {pontuacao_computador}")
-    print (f"\nVitórias: \n {vitorias}")
-    print (f"\nEmpates: \n {empates}")
-    print (f"\nderrotas: \n {derrotas}")
+    print(f"\n == PLACAR == \n {pontuacao_usuario} x {pontuacao_computador}\n")
     novamente = str(input("Deseja jogar outra partida? [S/N] \n> ")).lower()
     if novamente.lower() == "n":
         print(f"\n=== Placar Final === \n Usuário x Computador \n {pontuacao_usuario} x {pontuacao_computador}")
@@ -125,11 +120,13 @@ while True:
         print (f"\npartidas: \n {partidas}")
         print("\nObrigada por jogar! \n Trabalho feito por: \n Helena Gomes\n Juliana Munhoz\n Paola Leonardi")
         break
+        
 # --------------- Paola: Computador x Computador -
 import random
 
 pontos1 = 0
 pontos2 = 0
+empate = 0
 
 if modo == 3:
     print("MODO: Computador VS Computador selecionado")
@@ -155,6 +152,7 @@ if modo == 3:
 
         if jogada1 == jogada2:
             print("Empate!")
+            empate = empate +1
 
         elif (jogada1 == 1 and jogada2 == 3) or \
              (jogada1 == 3 and jogada2 == 2) or \
@@ -164,13 +162,16 @@ if modo == 3:
         else:
             print("Computador 2 venceu!")
             pontos2 += 1
+
+        print(f"\n== PLACAR == \n  {pontos1} X {pontos2}\n")
         denovo = str (input("Deseja jogar novamente? N/S\n>").lower())
 
         if denovo.lower() == "n":
 
-            print("\n=== RESULTADO FINAL ===")
+            print("\n=== RESULTADO FINAL ===\n")
             print(f"Computador 1: {pontos1}")
             print(f"Computador 2: {pontos2}")
+            print(f"Empates: {empate}")
 
             print ("\nObrigada por jogar!\n")
             print ("Alunas responsáveis:\nPaola Leonardi\nHelena Gomes\nJuliana Munhoz")

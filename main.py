@@ -10,7 +10,7 @@ modo = int (input("Digite o número do modo que gostaria de jogar:\n> "))
 ponto1 = 0
 ponto2 = 0
 while modo == 1:
-    print(f"\nMODO: Humano VS Humano")
+    print(f"\nMODO: Humano VS  selecionado")
     print(f"==OPÇÕES== \n👊Pedra \n🖐️Papel \n✌️Tesoura")
 
     jogador1 = str(input("\nJogador 1: \n> "))
@@ -64,8 +64,9 @@ papel = 2
 tesoura = 3
 
 while True:
-    print ("Escolha uma das três opções: pedra(1), papel(2) ou tesoura(3)")
-    usuario = int(input("Sua escolha: "))
+    print(f"\nMODO: Humano VS Computador selecionado")
+    print(f"==OPÇÕES== \n1:👊Pedra \n2:🖐️Papel \n3:✌️Tesoura\n")
+    usuario = int(input("Sua escolha:\n> "))
 
     computador = random.randint(1, 3)
     print(f"O computador jogou: {computador}")
@@ -115,8 +116,8 @@ while True:
     print (f"\nVitórias: \n {vitorias}")
     print (f"\nEmpates: \n {empates}")
     print (f"\nderrotas: \n {derrotas}")
-    novamente = str(input("Deseja jogar outra partida? [sim/não] \n> ")).lower()
-    if novamente.lower() == "não":
+    novamente = str(input("Deseja jogar outra partida? [S/N] \n> ")).lower()
+    if novamente.lower() == "n":
         print(f"\n=== Placar Final === \n Usuário x Computador \n {pontuacao_usuario} x {pontuacao_computador}")
         print(f"\nVitórias: \n {vitorias}")
         print(f"\nEmpates: \n {empates}")
@@ -158,20 +159,19 @@ if modo == 3:
         elif (jogada1 == 1 and jogada2 == 3) or \
              (jogada1 == 3 and jogada2 == 2) or \
              (jogada1 == 2 and jogada2 == 1):
-            print("Jogador 1 venceu!")
+            print("Computador 1 venceu!")
             pontos1 += 1
         else:
-            print("Jogador 2 venceu!")
+            print("Computador 2 venceu!")
             pontos2 += 1
-        print(f"Placar atual: {pontos1} x {pontos2}\n")
-        denovo = str (input("Deseja jogar novamente? N/Y\n>").lower())
+        denovo = str (input("Deseja jogar novamente? N/S\n>").lower())
 
         if denovo.lower() == "n":
 
             print("\n=== RESULTADO FINAL ===")
-            print(f"Jogador 1: {pontos1}")
-            print(f"Jogador 2: {pontos2}")
+            print(f"Computador 1: {pontos1}")
+            print(f"Computador 2: {pontos2}")
 
             print ("\nObrigada por jogar!\n")
-            print ("Alunas responsáveis:\nPaola R. Leonardi\nHelena Gomes\nJuliana Munhoz")
+            print ("Alunas responsáveis:\nPaola Leonardi\nHelena Gomes\nJuliana Munhoz")
             break

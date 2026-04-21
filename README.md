@@ -14,6 +14,14 @@
 📊 Resultado final ao encerrar o jogo <br>
 <img alt="Tesoura" src="https://i.imgur.com/CE28ZlA.png" align="right" width="115"/>
 <br>
+
+<!-- Prints do prompt -->
+<p align="center">
+<img alt="Computador Vs Computador" src="https://i.imgur.com/jMjUbdO.png" width="250"/>
+<img alt="Humano Vs Computador" src="https://i.imgur.com/dcPlC4T.png" width="250"/>
+<img alt="Humano Vs Humano" src="https://i.imgur.com/X8xiowf.png" width="250"/>
+</p>
+<!-- Tecnologias -->
 <h2>🖥️ Tecnologias utilizadas</h2> <img alt="Pedra" src="https://i.imgur.com/sFR0nCr.png" align="right" width="80"/>
 
 [![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff)](#)&nbsp;
@@ -21,7 +29,7 @@
 [![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=fff)](#)
 [![PyCharm](https://img.shields.io/badge/PyCharm-000?logo=pycharm&logoColor=fff)](#)&nbsp;
 
-<h2>👥 Alunas Contribuintes: Paola Leonardi, Helena Gomes e Juliana Munhoz</h2> 
+<h2>👥 Alunas Contribuintes: Paola Leonardi, Helena Gomes e Juliana Munhoz.</h2> 
 
   <img src="https://contrib.rocks/image?repo=julianamunhoz698/Jokenpo" />
 </a>

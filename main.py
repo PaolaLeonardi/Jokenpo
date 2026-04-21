@@ -10,7 +10,7 @@ modo = int (input("Digite o número do modo que gostaria de jogar:\n> "))
 ponto1 = 0
 ponto2 = 0
 while modo == 1:
-    print(f"\nMODO: Humano VS  selecionado")
+    print(f"\nMODO: Humano VS Humano selecionado")
     print(f"==OPÇÕES== \n👊Pedra \n🖐️Papel \n✌️Tesoura")
 
     jogador1 = str(input("\nJogador 1: \n> "))

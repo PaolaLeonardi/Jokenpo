@@ -21,7 +21,7 @@
 [![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=fff)](#)
 [![PyCharm](https://img.shields.io/badge/PyCharm-000?logo=pycharm&logoColor=fff)](#)&nbsp;
 
-<h2>👥 Alunas Contribuintes</h2> 
+<h2>👥 Alunas Contribuintes: Paola Leonardi, Helena Gomes e Juliana Munhoz</h2> 
 
   <img src="https://contrib.rocks/image?repo=julianamunhoz698/Jokenpo" />
 </a>

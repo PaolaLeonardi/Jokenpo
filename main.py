@@ -1,4 +1,4 @@
-# --------------- Menú ---------------------------
+# --------------- Menu ---------------------------
 print ("JOKENPÔ")
 print ("1: Humano VS Humano ")
 print ("2: Computador VS Humano ")
@@ -16,14 +16,14 @@ while modo == 1:
 
     jogador1 = int(input("\nJogador 1: \n> "))
     while jogador1 != 1 and jogador1 != 2 and jogador1 != 3:
-        jogador1 = input("\nJogador 1: \n> ")
-    jogador2 = input("\nJogador 2: \n> ")
+        jogador1 = int(input("\nJogador 1: \n> "))
+    jogador2 = int(input("\nJogador 2: \n> "))
     while jogador2 != 1 and jogador2 != 2 and jogador2 != 3:
-        jogador2 = input("\nJogador 2: \n> ")
+        jogador2 = int(input("\nJogador 2: \n> "))
 
     if jogador1 == jogador2:
         print("Empate!")
-        empate += 1
+        empates += 1
     elif jogador1 == 1 and jogador2 == 2:
         print("Jogador 2 venceu!")
         ponto2 += 1
@@ -76,8 +76,6 @@ while modo == 2:
     if usuario == computador:
         print("Empate!")
         empates +=1
-        pontuacao_usuario +=1
-        pontuacao_computador +=1
     elif computador == 1:
         if usuario == 2:
             print("Você venceu!")
